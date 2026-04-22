@@ -55,6 +55,8 @@ python seed.py
 ### 5. Run the server
 ```bash
 python app.py
+# or
+pipenv run flask run --port=5555
 ```
 
 The API will be running at `http://localhost:5555`
